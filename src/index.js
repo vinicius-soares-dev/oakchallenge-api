@@ -6,7 +6,7 @@ const PORT = process.env.PORT || 8000;
 const bodyParser = require("body-parser");
 require('dotenv').config({debug: true}); // Carregar variáveis de ambiente a partir de um arquivo .env
 const uri = process.env.CONNECTION_STRING; // Obter a string de conexão do ambiente
-const routes = require("./src/routes/routes");
+const routes = require("./routes/routes");
 const mongoose = require("mongoose");
 const cors = require("cors");
 
